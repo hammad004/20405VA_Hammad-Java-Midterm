@@ -20,53 +20,63 @@ What is a LinkedList?
 Answer: a linked class is an ordered collection that contains many objects of the same type
 
 How is an Array different from LinkedList?
-Answer:
+Answer: an array is a collection of elements of a similar data type
+a linked list is an ordered collection of elements of the same type
 
 What is a Queue?
-Answer:
+Answer: an interface available in java.util package and extends java.util collection interface
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: is a linear data structure that is used to store the collection of objects
 
 What is FIFO and LIFO?
-Answer:
+Answer: first in first out and last in first out are methods for handling
+data structures where the first element is processed and first the newest element is processed last
 
 Explain Big O Notation?
-Answer:
+Answer: Describes the set of all algorithms that run at a certain speed
 
 What is the best case to search an element from an array?
-Answer:
+Answer: The best case complexity is O(1) when element is first or last element in the array
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: the worst-case time complexity is the O(log N) this means as the number
+of values in a dataset increases, the performance decreases
 
 Describe what a tree data structure is?
-Answer:
+Answer: a tree data structure is a non linear data structure where data objects are
+organized in terms of hierarchical relationship
 
 Describe what a graph data structure is?
-Answer:
+Answer: a data structure for storing connected data like a network of people on a social
+media platform
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: hashmap is non-synchronized whereas hashtable is synchronized
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: hashmap uses multiple buckets and each bucket points to a singly linked list where the entries(nodes) are stored hashmaps makes use
+of performing a jump to a specific value making the search time constant
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: occurs when we are trying to access any item of an array at an index which is not present in the array
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: using a for loop and copy elements, use the clone method, use arraycopy() of system class
+use copyOf() or copyOfRange() methods of array class
 
 What is DFS and BFS?
-Answer:
+Answer: bfs stands for breadth first search and dfs stands for depth first search
+bfs uses queue data structure for finding the shortest path, dfs uses stack data structure
 
 What is Recursion?
-Answer:
+Answer: a method that calls itself is known as a recursive method
 
 What are linear and non-linear data Structures?
-Answer:
+Answer: in linear data structures data elements are sequentially connected and each element is
+traversable through a single run. in non linear data structure, data elements are hierarchically connected
 
 
 Outline different sorting algorithms and their time complexities:
+selection sort, heap sort, bubble sort, insertion sort, quick sort, merge sort
 
