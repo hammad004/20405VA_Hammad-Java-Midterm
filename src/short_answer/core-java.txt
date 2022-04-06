@@ -1,181 +1,198 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: A set of gramatical rules for instructing a computer to perform specific tasks
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: The jdk is composed of the JRE, a compiler, an archiver, a document generator
 
 What is an IDE?
-Answer:
+Answer: IDE is integrated development environment, it enables programmers to consolidate the different aspects of writing a computer program
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: Eclipse, intellij, netbeans, blueJ
 
 Explain the entire java life cycle.
-Answer:
+Answer: there are 3 main stages of the java lifecycle, Editing the program, compiling the source code, and executing the byte code
 
 What is a class?
-Answer:
+Answer: A class is an object constructor or a blueprint for an object this can be used in java via the "class" keyword
 
 What is an object?
-Answer:
+Answer: an object or instance in java is a member of a class that is created by the constructor
 
 What is the entry point of a Java project?
-Answer:
+Answer: a class having a signature with method public static void main(string[] args)
 
 Why is the main() method static?
-Answer:
+Answer: because it doesn't return anything and so that it can be called without creating an instance
 
 Which class is the superclass of all classes?
-Answer:
+Answer: the superclass of all classes in java is the object class or java.lang.obj
 
 What is difference between path and classpath variables?
-Answer:
+Answer: Path is set for tools in java whereas classpath is used by system or application class lodader to locate and load compile java bytecodes
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: An abstract class allows you to create functionality that subclasses can implement and override, an interface only allows you to define functionality, not implement it
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer: You cannot make an object of interface since it's not a class and abstract is an incomplete class
 
 What is Access Modifier?
-Answer:
+Answer: access modifiers such as public/private give special access to certain classes/projects
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer: OOP is object oriented programming, Abstraction involves data hiding from the user to hide complexities. encapsulation involves bundling data and methods that work on that data within one unit like a class
+inheritance deals with the ability to derive a class from another class for a hierarchy fo classes that share a set of attributes or methods and polymorphism is when something occurs in several forms
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer: a package n java is used to group related classes, the default package is java.lang
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer: an api is an application programming interface that allows users to interact with eachothers code, the only API we have used is GIT
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer: no, because multiple inheritance can cause issues between classes
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer: method overloading is when you have methods with the same name but different parameters
+method 1: changing # of parameters. method 2: changing data types of parameters. method 3: changing the order of the parameters
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer: an event that occurs during the execution of a program that disrupts the normal flow of instructions
+they are handeled using the try-catch statements
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer: it means the particular member belongs to a type itself rather than an intance of that type
+you can use static but simply typing "static"
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer: the final keyword is used to restrict the user, this can be variable, method, or class
+
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer: final is the access modifier which is used to restrict access, finally is the block in java exception handling to execute the important code
+finalize is the method in java which is used to perform clean up processing
 
 What is a constructor?
-Answer:
+Answer: a constructor in java is the same as a class and is used to create objects within that class
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: yes you can have multiple constructors in a class
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer: it called the default constructor and provides the no argument constructor
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer: it refers to a current object in the method or constructor
+its most common use is to eliminate confusion between the class attributes and parameters
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer: its a reference variable which is used to refer immmediate parent class object
+whenever we would want to reference the parent class
 
 What does JVM stand for?
-Answer:
+Answer: Java Virtual Machine
 
 Is JVM platform independent?
-Answer:
+Answer: JVM is platform dependent
 
 What version of Java are you using?
-Answer:
+Answer: java 11.0.14 2022-01-18
 
 What does JAR stand for?
-Answer:
+Answer: Java ARchive
 
 What is the difference between JDK and JVM?
-Answer:
+Answer: jdk is platform dependent and jvm is platform independent
 
 What is the difference between JVM and JRE?
-Answer:
+Answer: JVM is platform independent and JRE is platform dependent
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer: compile time is the period where programming code is converted into machine code
+runtime is the period of time when a program is running (occurs after compile time)
 
 What is heap?
-Answer:
+Answer: the Java Heap is the area of memory used to store objects instantiated by applications on the JVM
 
 How does Java manage its memory?
-Answer:
+Answer: java uses a automatic memory management system called garbage collector which allocates objects
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer: String are immutable and are used for words stringbuilder is mutable and modifiable succession of characters
+stringBuffer provides much of the functionality of strings and represents growable character sequences
 
 What is Singleton class?
-Answer:
+Answer: a singleton is a design pattern that ensures a class can only have one object
 
 What is Serialization and Deserialization?
-Answer:
+Answer: serialization is the mechanism of converting the state of an object into a byte stream
+Deserialization is the reverse process where the byte stream is used to recreate the actual java object in memory
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer: while loop checks the condition first then executes the statements
+whereas do-while will execute the statements at least once then the condition is checked
 
 What is Enum?
-Answer:
+Answer: is a special class that represents a group of constants
 
 What is Iterator?
-Answer:
+Answer: an iterator is an object that can be used to loop through collections like arraylist and hashset
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer: integer takes more memory because it is an object which takes 128 bits vs int 32 bits
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer: because of the security, synchronization and concurrency, caching, and class loading
 
 What is constructor chaining in Java?
-Answer:
+Answer: the process of invoking a sequence of constructions upon initialization of a class object
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer: the difference between the two is that parallel uses multiple threads whereas
+serial uses a single thread
 
 What does JIT stands for?
-Answer:
+Answer: Just-In-Time
 
 Explain the process of Java garbage collection?
-Answer:
+Answer: 1. marking phase that finds and creates a list of all live objects
+2. relocating phase that updates the references to the objects that will be compacted
+3. compacting phase that reclaims space occupied by the dead objects
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer: up until the point that the memory has run out
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer: stack is a linear data structure whereas heap is a hierarchical data structure
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: it allows an executing java program to examine or introspect upon itself and manipulate internal properties of the program
 
 What is multithreading in Java?
-Answer:
+Answer: A process of excecuting two or more threads simultaneously for maximum utilization of the CPU
 
 What is synchronization in Java?
-Answer:
+Answer: the capability to control the access of multiple threads to any shared resource
 
 What is a Framework?
-Answer:
+Answer: bodies of reusable pre-written code acting as templates that developers can use to create applications by filling
+in custom code as needed
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer: JUnit, JBehave, Serenity, Selenium, TestNG
 
 What are jUnit and testNG?
-Answer:
+Answer: these are testing frameworks that involve automation
 
 What are the dependencies for this project?
-Answer:
+Answer:Gson, Jackson-annotations, Protobuf, Mongo-java-driver, Jackson-databind and more
 
 What is dependency injection in Java?
-Answer:
+Answer: providing an objects than an object needs instead of having it construct them itself
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer: private final and static members use static binding while for
+virtual methods binding is done
