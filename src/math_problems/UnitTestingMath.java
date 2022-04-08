@@ -1,5 +1,7 @@
 package math_problems;
 
+import org.testng.annotations.Test;
+
 public class UnitTestingMath {
 
     /**
@@ -7,7 +9,6 @@ public class UnitTestingMath {
      */
 
     public static void main(String[] args) {
-
 
     }
 }

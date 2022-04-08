@@ -31,7 +31,7 @@ Which class is the superclass of all classes?
 Answer: the superclass of all classes in java is the object class or java.lang.obj
 
 What is difference between path and classpath variables?
-Answer: Path is set for tools in java whereas classpath is used by system or application class lodader to locate and load compile java bytecodes
+Answer: Path is set for tools in java whereas classpath is used by system or application class loader to locate and load compile java bytecodes
 
 What is the difference between an Interface and Abstract class?
 Answer: An abstract class allows you to create functionality that subclasses can implement and override, an interface only allows you to define functionality, not implement it
